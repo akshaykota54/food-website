@@ -170,7 +170,7 @@ nav ul a:hover{
     text-align: center;
     padding:20px;
 }
-@media (max-width:1000px)
+@media (max-width:1024px)
 {
     #vegetables{
     grid-template-columns: repeat(2,1fr);
@@ -185,6 +185,11 @@ nav ul a:hover{
     .items_v img{
     height:300px;
     width:300px;
+    .banner_1{
+    text-align:center;
+    height:300px;
+    width:80vw;
+    }
 }
 
 }
@@ -201,8 +206,8 @@ nav ul a:hover{
     width:200px;
     }
     .items_v img{
-    height:250px;
-    width:300px;
+    height:200px;
+    width:200px;
     }
     .contact{
        margin:20px;
@@ -215,6 +220,15 @@ nav ul a:hover{
     #about{
         padding:0px;
         margin:0px;
+    }
+    .banner_1{
+    text-align:center;
+    margin-left:25px;
+    height:300px;
+    width:80vw;
+    }
+    .banner h1{
+        font-size:2rem;
     }
 }
 @media (max-width:480px)
@@ -232,6 +246,15 @@ nav ul a:hover{
     .items_v img{
     height:150px;
     width:150px;
+    }
+    .banner_1{
+    text-align:center;
+    margin-left:25px;
+    height:300px;
+    width:80vw;
+    }
+    .banner h1{
+        font-size:2rem;
     }
     .contact{
        margin:0px;
