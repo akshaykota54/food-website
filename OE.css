@@ -206,7 +206,7 @@ width:300px;
 }
 
 }
-@media (max-width:480)
+@media (max-width:480px)
 {
 #vegetables{
 grid-template-columns: repeat(1,1fr);
